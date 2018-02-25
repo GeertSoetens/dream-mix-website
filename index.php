@@ -8,11 +8,12 @@
     <link href="style/reset.css" type="text/css" rel="stylesheet">
     <link href="style/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
     <div id="hero">
         <div id="title">
-            <img src="images/dream_mix_logo_70px.png">
+            <img src="images/dream_mix_logo_100px.png">
             <h1>DREAM MIX</h1>
             <div id="borderdiv">
 
