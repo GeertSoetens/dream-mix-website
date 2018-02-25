@@ -12,8 +12,11 @@
 <body>
     <div id="hero">
         <div id="title">
-            <img src="images/Dream_Mix_hd_logo.png">
+            <img src="images/dream_mix_logo_70px.png">
             <h1>DREAM MIX</h1>
+            <div id="borderdiv">
+
+            </div>
         </div>
     </div>
     <nav>

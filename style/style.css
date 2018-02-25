@@ -13,6 +13,47 @@ a {
     }
 }
 
+@media screen and (max-width: 400px) {
+    nav {
+        height: 100px !important;
+    }
+}
+
+@keyframes onload_textdiv {
+    0% {
+        opacity: 0;
+        bottom: 0;
+    }
+    100% {
+        opacity: 1;
+        bottom: 45px;
+    }
+}
+
+@keyframes onload_logo {
+    0% {
+        opacity: 0;
+        top: 0;
+    }
+    100% {
+        opacity: 1;
+        bottom: 5px;
+    }
+}
+
+@keyframes div_load {
+    0% {
+        opacity: 0;
+        width: 1px;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        width: 400px;
+    }
+}
+
 #hero {
     height: 50vh;
     display: block;
@@ -26,14 +67,23 @@ a {
     width: 400px;
     height: 80px;
     text-align: center;
-    border-bottom: 4px solid cornflowerblue;
     color: white;
+}
+
+#borderdiv {
+    position: relative;
+    bottom: 40px;
+    border-bottom: 4px solid cornflowerblue;
+    animation: div_load 1s ease-in-out;
+    margin: auto;
+    z-index: 0;
 }
 
 #title img {
     position: relative;
     height: 70px;
     top: 5px;
+    animation: onload_logo 1s ease-in-out;
 }
 
 #title h1 {
@@ -43,6 +93,8 @@ a {
     font-weight: bolder;
     font-size: 50px;
     text-shadow: 0 3px 3px black;
+    animation: onload_textdiv 1s ease-in-out;
+    z-index: 1;
 }
 
 nav {
@@ -65,18 +117,20 @@ nav li {
     font-size: 14px;
     padding-top: 15px;
     transition: all 0.2s ease-in-out;
+    border-bottom: 5px black solid;
 }
 
+nav li:hover {
+    border-bottom: 5px solid red;
+}
 nav a {
     color: white;
     font-weight: bold;
     font-size: 20px;
     transition: all 0.1s ease-in-out;
     border: red;
-}
-
-nav a:hover {
-    border-bottom: 2px solid red;
+    width: 200px;
+    height: 50px;
 }
 
 .nav1 {
@@ -86,5 +140,4 @@ nav a:hover {
 
 .nav2 {
     background-color: royalblue;
-    border-bottom: solid 5px black;
 }
