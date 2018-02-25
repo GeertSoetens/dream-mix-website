@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+}
+
+@media screen and (max-height: 400px) {
+    #hero {
+        height: 100vh !important;
+    }
+}
+
+#hero {
+    height: 50vh;
+    display: block;
+    padding-top: 20vh;
+    background-image: url("../images/temp_pattern.png");
+    box-shadow: inset 0 -69px 83px -59px rgba(0,0,0,0.39);
+}
+
+#title {
+    margin: auto;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    border-bottom: 4px solid cornflowerblue;
+    color: white;
+}
+
+#title img {
+    position: relative;
+    height: 70px;
+    top: 5px;
+}
+
+#title h1 {
+    position: relative;
+    bottom: 45px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 0 3px 3px black;
+}
+
+nav {
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    height: 50px;
+    font-size: 0;
+}
+
+nav li {
+    width: 200px;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    padding-top: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav li:hover {
+    border-bottom: 4px solid blue;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.nav1 {
+    background-color: lightgray;
+}
+
+.nav2 {
+    background-color: royalblue;
+}
