@@ -48,6 +48,7 @@ a {
 nav {
     height: 50px;
     background-color: cornflowerblue;
+    border-bottom: solid 5px black;
 }
 
 nav ul {
@@ -66,25 +67,24 @@ nav li {
     transition: all 0.2s ease-in-out;
 }
 
-nav li:hover {
-    border-bottom: 4px solid blue;
-}
-
 nav a {
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     transition: all 0.1s ease-in-out;
+    border: red;
 }
 
 nav a:hover {
-    color: blue;
+    border-bottom: 2px solid red;
 }
 
 .nav1 {
-    background-color: lightgray;
+    background-color: black;
+    color: white;
 }
 
 .nav2 {
     background-color: royalblue;
+    border-bottom: solid 5px black;
 }
