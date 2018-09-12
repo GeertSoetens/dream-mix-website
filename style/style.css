@@ -25,6 +25,9 @@ a {
     #herovideo {
         display: none;
     }
+    #hero {
+        background-image: url("../images/temp_pattern.png");
+    }
 }
 
 @keyframes onload_textdiv {
@@ -66,7 +69,7 @@ a {
     height: 50vh;
     display: block;
     padding-top: 20vh;
-    /* background-image: url("../images/temp_pattern.png"); */
+    background-image: none;
     box-shadow: inset 0 -69px 83px -59px rgba(0,0,0,0.39);
 }
 
@@ -116,7 +119,7 @@ a {
 nav {
     height: 50px;
     background-color: cornflowerblue;
-    border-bottom: solid 5px black;
+    border-bottom: solid 5px rgb(0, 30, 120);
 }
 
 nav ul {
