@@ -12,11 +12,14 @@
 </head>
 <body>
     <div id="hero">
+        <video autoplay loop muted id="herovideo">
+            <source src="vid/createyourownadventure.mp4" type="video/mp4">
+            Sorry! Something went wrong!
+        </video>
         <div id="title">
             <img src="images/dream_mix_logo_100px.png">
             <h1>DREAM MIX</h1>
             <div id="borderdiv">
-
             </div>
         </div>
     </div>
@@ -33,5 +36,8 @@
             </li>
         </ul>
     </nav>
+    <div id="content">
+        test
+    </div>
 </body>
 </html>
