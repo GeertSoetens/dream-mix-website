@@ -7,8 +7,31 @@ a {
     text-decoration: none;
 }
 
+.flexbox {
+    display: flex;
+}
 
+.flexcontent {
+    flex-grow: 1;
+    width: 200px;
+    height: 500px;
+    border: solid 4px cornflowerblue;
+    margin: 40px;
+    transition: all ease-in-out .2s;
+}
 
+.flexcontent:hover {
+    transform: translate(0, -10px);
+}
+
+.flexcontent > .header-img {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/am-screenshot.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset black 0 -20px 70px;
+}
 @media screen and (max-height: 500px) {
     #hero {
         height: 100vh !important;
@@ -71,6 +94,7 @@ a {
     padding-top: 20vh;
     background-image: none;
     box-shadow: inset 0 -69px 83px -59px rgba(0,0,0,0.39);
+    background-color: rgba(0,0,0,0.3)
 }
 
 #hero > video {
@@ -134,7 +158,6 @@ nav li {
     display: inline-block;
     height: 50px;
     font-size: 14px;
-    padding-top: 15px;
     transition: all 0.2s ease-in-out;
     border-bottom: 5px rgb(0, 30, 120) solid;
 }
@@ -161,7 +184,29 @@ nav a {
     background-color: royalblue;
 }
 
+.nav1 > a, .nav2 > a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 15px;
+}
+
 #content {
     background-color: white;
     height: 100vh;
+}
+
+.header-img h2 {
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    padding-top: 175px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.titlehover:hover {
+    transform: translate(0, -5px);
 }

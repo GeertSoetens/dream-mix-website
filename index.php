@@ -37,7 +37,16 @@
         </ul>
     </nav>
     <div id="content">
-        test
+        <div class="flexbox">
+            <div class="flexcontent">
+                <div class="header-img">
+                    <h2>NEWS UPDATE VER 0.1</h2>
+                </div>
+            </div>
+            <div class="flexcontent">
+            </div>
+            <div class="flexcontent">
+        </div>
     </div>
 </body>
 </html>
