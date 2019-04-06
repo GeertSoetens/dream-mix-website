@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+}
+
 .flexbox {
     display: flex;
 }
@@ -15,9 +23,9 @@ a {
     flex-grow: 1;
     width: 200px;
     height: 500px;
-    border: solid 4px cornflowerblue;
     margin: 40px;
     transition: all ease-in-out .2s;
+    box-shadow: 2px 0px 15px black;
 }
 
 .flexcontent:hover {
@@ -205,4 +213,8 @@ nav a {
     padding-top: 175px;
     font-size: 20px;
     font-weight: 900;
+}
+
+.flexcontent p {
+    padding: 10px;
 }

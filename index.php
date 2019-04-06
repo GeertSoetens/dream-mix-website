@@ -42,6 +42,11 @@
                 <div class="header-img">
                     <h2>NEWS UPDATE VER 0.1</h2>
                 </div>
+                <div>
+                    <p>
+                        This is some news content, eventually automatically retrieved from a database using php.
+                    </p>
+                </div>
             </div>
             <div class="flexcontent">
             </div>
